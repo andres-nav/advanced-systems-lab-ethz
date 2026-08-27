@@ -1,0 +1,52 @@
+[sweep] (1/1) building 0_baseline ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O0 src/main.cpp src/variants/0_baseline/comp.cpp src/common/parser.cpp -o build/0_baseline -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 1/2 point 1/9 13:41:13] 0_baseline LONG BLOCK_CORR F=8 S=512
+[sweep cell 1/2 point 2/9 13:41:14] 0_baseline LONG BLOCK_CORR F=16 S=512
+[sweep cell 1/2 point 3/9 13:41:15] 0_baseline LONG BLOCK_CORR F=32 S=512
+[sweep cell 1/2 point 4/9 13:41:18] 0_baseline LONG BLOCK_CORR F=64 S=512
+[sweep cell 1/2 point 5/9 13:41:26] 0_baseline LONG BLOCK_CORR F=128 S=512
+[sweep cell 1/2 point 6/9 13:41:56] 0_baseline LONG BLOCK_CORR F=256 S=512
+[sweep cell 1/2 point 7/9 13:43:53] 0_baseline LONG BLOCK_CORR F=512 S=512
+[sweep cell 1/2 point 8/9 13:51:40] 0_baseline LONG BLOCK_CORR F=1024 S=512
+[sweep cell 1/2 point 9/9 14:22:48] 0_baseline LONG BLOCK_CORR F=2048 S=512
+[sweep cell 2/2 point 1/9 16:27:11] 0_baseline SHORT BLOCK_CORR F=8 S=512
+[sweep cell 2/2 point 2/9 16:27:11] 0_baseline SHORT BLOCK_CORR F=16 S=512
+[sweep cell 2/2 point 3/9 16:27:12] 0_baseline SHORT BLOCK_CORR F=32 S=512
+[sweep cell 2/2 point 4/9 16:27:13] 0_baseline SHORT BLOCK_CORR F=64 S=512
+[sweep cell 2/2 point 5/9 16:27:16] 0_baseline SHORT BLOCK_CORR F=128 S=512
+[sweep cell 2/2 point 6/9 16:27:23] 0_baseline SHORT BLOCK_CORR F=256 S=512
+[sweep cell 2/2 point 7/9 16:27:52] 0_baseline SHORT BLOCK_CORR F=512 S=512
+[sweep cell 2/2 point 8/9 16:29:43] 0_baseline SHORT BLOCK_CORR F=1024 S=512
+[sweep cell 2/2 point 9/9 16:37:06] 0_baseline SHORT BLOCK_CORR F=2048 S=512
+[sweep] done — wrote results/2026-05-26_13-41-12_F8-2048_S512_LONG-SHORT_BLOCK_CORR_R3/
+[sweep] (1/1) building 0_baseline ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O0 src/main.cpp src/variants/0_baseline/comp.cpp src/common/parser.cpp -o build/0_baseline -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 1/1 point 1/9 17:23:47] 0_baseline SHORT GAUSSIAN F=8 S=512
+[sweep cell 1/1 point 2/9 17:23:48] 0_baseline SHORT GAUSSIAN F=16 S=512
+[sweep cell 1/1 point 3/9 17:23:49] 0_baseline SHORT GAUSSIAN F=32 S=512
+[sweep cell 1/1 point 4/9 17:23:50] 0_baseline SHORT GAUSSIAN F=64 S=512
+[sweep cell 1/1 point 5/9 17:23:52] 0_baseline SHORT GAUSSIAN F=128 S=512
+[sweep cell 1/1 point 6/9 17:24:00] 0_baseline SHORT GAUSSIAN F=256 S=512
+[sweep cell 1/1 point 7/9 17:24:28] 0_baseline SHORT GAUSSIAN F=512 S=512
+[sweep cell 1/1 point 8/9 17:26:19] 0_baseline SHORT GAUSSIAN F=1024 S=512
+[sweep cell 1/1 point 9/9 17:33:41] 0_baseline SHORT GAUSSIAN F=2048 S=512
+[sweep] done — wrote results/2026-05-26_17-23-46_F8-2048_S512_SHORT_GAUSSIAN_R3/
+[sweep] (1/9) building 0_baseline ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O0 src/main.cpp src/variants/0_baseline/comp.cpp src/common/parser.cpp -o build/0_baseline -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 1/36 point 1/11 10:51:27] 0_baseline LONG GAUSSIAN F=8 S=512
+[sweep cell 1/36 point 2/11 10:51:27] 0_baseline LONG GAUSSIAN F=16 S=512
+[sweep cell 1/36 point 3/11 10:51:28] 0_baseline LONG GAUSSIAN F=32 S=512
+[sweep cell 1/36 point 4/11 10:51:31] 0_baseline LONG GAUSSIAN F=64 S=512
+[sweep cell 1/36 point 5/11 10:51:39] 0_baseline LONG GAUSSIAN F=128 S=512
+[sweep cell 1/36 point 6/11 10:52:09] 0_baseline LONG GAUSSIAN F=256 S=512
+[sweep cell 1/36 point 7/11 10:54:06] 0_baseline LONG GAUSSIAN F=512 S=512
+[sweep cell 1/36 point 8/11 11:01:53] 0_baseline LONG GAUSSIAN F=1024 S=512
+[sweep cell 1/36 point 9/11 11:33:00] 0_baseline LONG GAUSSIAN F=2048 S=512
+[sweep cell 1/36 point 10/11 13:37:22] 0_baseline LONG GAUSSIAN F=4096 S=512
+Terminated

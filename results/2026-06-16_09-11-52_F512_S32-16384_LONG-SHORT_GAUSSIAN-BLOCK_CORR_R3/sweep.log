@@ -1,0 +1,45 @@
+[sweep] (1/1) building 2.1_manual_ilp_no_vectorization ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O3 -march=native -ffast-math -fno-tree-vectorize src/main.cpp src/variants/2.1_manual_ilp_no_vectorization/comp.cpp src/common/parser.cpp -o build/2.1_manual_ilp_no_vectorization -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 1/4 point 1/10 09:11:54] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=32
+[sweep cell 1/4 point 2/10 09:11:56] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=64
+[sweep cell 1/4 point 3/10 09:11:59] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=128
+[sweep cell 1/4 point 4/10 09:12:04] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=256
+[sweep cell 1/4 point 5/10 09:12:13] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=512
+[sweep cell 1/4 point 6/10 09:12:28] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=1024
+[sweep cell 1/4 point 7/10 09:12:59] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=2048
+[sweep cell 1/4 point 8/10 09:13:57] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=4096
+[sweep cell 1/4 point 9/10 09:15:58] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=8192
+[sweep cell 1/4 point 10/10 09:20:25] 2.1_manual_ilp_no_vectorization LONG GAUSSIAN F=512 S=16384
+[sweep cell 2/4 point 1/10 09:29:25] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=32
+[sweep cell 2/4 point 2/10 09:29:28] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=64
+[sweep cell 2/4 point 3/10 09:29:31] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=128
+[sweep cell 2/4 point 4/10 09:29:37] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=256
+[sweep cell 2/4 point 5/10 09:29:45] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=512
+[sweep cell 2/4 point 6/10 09:30:01] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=1024
+[sweep cell 2/4 point 7/10 09:30:32] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=2048
+[sweep cell 2/4 point 8/10 09:31:31] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=4096
+[sweep cell 2/4 point 9/10 09:33:31] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=8192
+[sweep cell 2/4 point 10/10 09:37:58] 2.1_manual_ilp_no_vectorization LONG BLOCK_CORR F=512 S=16384
+[sweep cell 3/4 point 1/10 09:46:58] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=32
+[sweep cell 3/4 point 2/10 09:47:00] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=64
+[sweep cell 3/4 point 3/10 09:47:02] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=128
+[sweep cell 3/4 point 4/10 09:47:04] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=256
+[sweep cell 3/4 point 5/10 09:47:07] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=512
+[sweep cell 3/4 point 6/10 09:47:11] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=1024
+[sweep cell 3/4 point 7/10 09:47:19] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=2048
+[sweep cell 3/4 point 8/10 09:47:32] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=4096
+[sweep cell 3/4 point 9/10 09:47:54] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=8192
+[sweep cell 3/4 point 10/10 09:48:38] 2.1_manual_ilp_no_vectorization SHORT GAUSSIAN F=512 S=16384
+[sweep cell 4/4 point 1/10 09:50:09] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=32
+[sweep cell 4/4 point 2/10 09:50:11] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=64
+[sweep cell 4/4 point 3/10 09:50:13] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=128
+[sweep cell 4/4 point 4/10 09:50:15] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=256
+[sweep cell 4/4 point 5/10 09:50:18] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=512
+[sweep cell 4/4 point 6/10 09:50:23] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=1024
+[sweep cell 4/4 point 7/10 09:50:30] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=2048
+[sweep cell 4/4 point 8/10 09:50:43] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=4096
+[sweep cell 4/4 point 9/10 09:51:06] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=8192
+[sweep cell 4/4 point 10/10 09:51:50] 2.1_manual_ilp_no_vectorization SHORT BLOCK_CORR F=512 S=16384
+[sweep] done — wrote results/2026-06-16_09-11-52_F512_S32-16384_LONG-SHORT_GAUSSIAN-BLOCK_CORR_R3/

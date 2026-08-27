@@ -1,0 +1,341 @@
+[sweep] (1/9) building 0_baseline ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O0 src/main.cpp src/variants/0_baseline/comp.cpp src/common/parser.cpp -o build/0_baseline -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 1/36 point 1/10 21:09:56] 0_baseline LONG GAUSSIAN F=512 S=32
+[sweep cell 1/36 point 2/10 21:11:04] 0_baseline LONG GAUSSIAN F=512 S=64
+[sweep cell 1/36 point 3/10 21:12:49] 0_baseline LONG GAUSSIAN F=512 S=128
+[sweep cell 1/36 point 4/10 21:15:21] 0_baseline LONG GAUSSIAN F=512 S=256
+[sweep cell 1/36 point 5/10 21:19:31] 0_baseline LONG GAUSSIAN F=512 S=512
+[sweep cell 1/36 point 6/10 21:27:18] 0_baseline LONG GAUSSIAN F=512 S=1024
+[sweep cell 1/36 point 7/10 21:42:21] 0_baseline LONG GAUSSIAN F=512 S=2048
+[sweep cell 1/36 point 8/10 22:11:33] 0_baseline LONG GAUSSIAN F=512 S=4096
+[sweep cell 1/36 point 9/10 23:09:17] 0_baseline LONG GAUSSIAN F=512 S=8192
+[sweep cell 1/36 point 10/10 01:03:42] 0_baseline LONG GAUSSIAN F=512 S=16384
+[sweep cell 2/36 point 1/10 04:52:07] 0_baseline LONG BLOCK_CORR F=512 S=32
+[sweep cell 2/36 point 2/10 04:53:16] 0_baseline LONG BLOCK_CORR F=512 S=64
+[sweep cell 2/36 point 3/10 04:55:00] 0_baseline LONG BLOCK_CORR F=512 S=128
+[sweep cell 2/36 point 4/10 04:57:34] 0_baseline LONG BLOCK_CORR F=512 S=256
+[sweep cell 2/36 point 5/10 05:01:43] 0_baseline LONG BLOCK_CORR F=512 S=512
+[sweep cell 2/36 point 6/10 05:09:30] 0_baseline LONG BLOCK_CORR F=512 S=1024
+[sweep cell 2/36 point 7/10 05:24:33] 0_baseline LONG BLOCK_CORR F=512 S=2048
+[sweep cell 2/36 point 8/10 05:53:45] 0_baseline LONG BLOCK_CORR F=512 S=4096
+[sweep cell 2/36 point 9/10 06:51:28] 0_baseline LONG BLOCK_CORR F=512 S=8192
+[sweep cell 2/36 point 10/10 08:45:53] 0_baseline LONG BLOCK_CORR F=512 S=16384
+[sweep cell 3/36 point 1/10 12:34:16] 0_baseline SHORT GAUSSIAN F=512 S=32
+[sweep cell 3/36 point 2/10 12:35:09] 0_baseline SHORT GAUSSIAN F=512 S=64
+[sweep cell 3/36 point 3/10 12:36:08] 0_baseline SHORT GAUSSIAN F=512 S=128
+[sweep cell 3/36 point 4/10 12:37:13] 0_baseline SHORT GAUSSIAN F=512 S=256
+[sweep cell 3/36 point 5/10 12:38:29] 0_baseline SHORT GAUSSIAN F=512 S=512
+[sweep cell 3/36 point 6/10 12:40:20] 0_baseline SHORT GAUSSIAN F=512 S=1024
+[sweep cell 3/36 point 7/10 12:43:19] 0_baseline SHORT GAUSSIAN F=512 S=2048
+[sweep cell 3/36 point 8/10 12:48:22] 0_baseline SHORT GAUSSIAN F=512 S=4096
+[sweep cell 3/36 point 9/10 12:57:33] 0_baseline SHORT GAUSSIAN F=512 S=8192
+[sweep cell 3/36 point 10/10 13:15:18] 0_baseline SHORT GAUSSIAN F=512 S=16384
+[sweep cell 4/36 point 1/10 13:50:08] 0_baseline SHORT BLOCK_CORR F=512 S=32
+[sweep cell 4/36 point 2/10 13:51:01] 0_baseline SHORT BLOCK_CORR F=512 S=64
+[sweep cell 4/36 point 3/10 13:52:00] 0_baseline SHORT BLOCK_CORR F=512 S=128
+[sweep cell 4/36 point 4/10 13:53:05] 0_baseline SHORT BLOCK_CORR F=512 S=256
+[sweep cell 4/36 point 5/10 13:54:21] 0_baseline SHORT BLOCK_CORR F=512 S=512
+[sweep cell 4/36 point 6/10 13:56:12] 0_baseline SHORT BLOCK_CORR F=512 S=1024
+[sweep cell 4/36 point 7/10 13:59:11] 0_baseline SHORT BLOCK_CORR F=512 S=2048
+[sweep cell 4/36 point 8/10 14:04:15] 0_baseline SHORT BLOCK_CORR F=512 S=4096
+[sweep cell 4/36 point 9/10 14:13:26] 0_baseline SHORT BLOCK_CORR F=512 S=8192
+[sweep cell 4/36 point 10/10 14:31:10] 0_baseline SHORT BLOCK_CORR F=512 S=16384
+[sweep] cooling down 30s before next variant ...
+[sweep] (2/9) building 1_algorithm ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O0 src/main.cpp src/variants/1_algorithm/comp.cpp src/common/parser.cpp -o build/1_algorithm -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 5/36 point 1/10 15:06:32] 1_algorithm LONG GAUSSIAN F=512 S=32
+[sweep cell 5/36 point 2/10 15:06:39] 1_algorithm LONG GAUSSIAN F=512 S=64
+[sweep cell 5/36 point 3/10 15:06:54] 1_algorithm LONG GAUSSIAN F=512 S=128
+[sweep cell 5/36 point 4/10 15:07:18] 1_algorithm LONG GAUSSIAN F=512 S=256
+[sweep cell 5/36 point 5/10 15:08:01] 1_algorithm LONG GAUSSIAN F=512 S=512
+[sweep cell 5/36 point 6/10 15:09:26] 1_algorithm LONG GAUSSIAN F=512 S=1024
+[sweep cell 5/36 point 7/10 15:12:15] 1_algorithm LONG GAUSSIAN F=512 S=2048
+[sweep cell 5/36 point 8/10 15:17:46] 1_algorithm LONG GAUSSIAN F=512 S=4096
+[sweep cell 5/36 point 9/10 15:28:48] 1_algorithm LONG GAUSSIAN F=512 S=8192
+[sweep cell 5/36 point 10/10 15:51:03] 1_algorithm LONG GAUSSIAN F=512 S=16384
+[sweep cell 6/36 point 1/10 16:35:43] 1_algorithm LONG BLOCK_CORR F=512 S=32
+[sweep cell 6/36 point 2/10 16:35:51] 1_algorithm LONG BLOCK_CORR F=512 S=64
+[sweep cell 6/36 point 3/10 16:36:06] 1_algorithm LONG BLOCK_CORR F=512 S=128
+[sweep cell 6/36 point 4/10 16:36:31] 1_algorithm LONG BLOCK_CORR F=512 S=256
+[sweep cell 6/36 point 5/10 16:37:15] 1_algorithm LONG BLOCK_CORR F=512 S=512
+[sweep cell 6/36 point 6/10 16:38:40] 1_algorithm LONG BLOCK_CORR F=512 S=1024
+[sweep cell 6/36 point 7/10 16:41:29] 1_algorithm LONG BLOCK_CORR F=512 S=2048
+[sweep cell 6/36 point 8/10 16:47:01] 1_algorithm LONG BLOCK_CORR F=512 S=4096
+[sweep cell 6/36 point 9/10 16:58:03] 1_algorithm LONG BLOCK_CORR F=512 S=8192
+[sweep cell 6/36 point 10/10 17:20:19] 1_algorithm LONG BLOCK_CORR F=512 S=16384
+[sweep cell 7/36 point 1/10 18:04:59] 1_algorithm SHORT GAUSSIAN F=512 S=32
+[sweep cell 7/36 point 2/10 18:05:04] 1_algorithm SHORT GAUSSIAN F=512 S=64
+[sweep cell 7/36 point 3/10 18:05:10] 1_algorithm SHORT GAUSSIAN F=512 S=128
+[sweep cell 7/36 point 4/10 18:05:17] 1_algorithm SHORT GAUSSIAN F=512 S=256
+[sweep cell 7/36 point 5/10 18:05:27] 1_algorithm SHORT GAUSSIAN F=512 S=512
+[sweep cell 7/36 point 6/10 18:05:44] 1_algorithm SHORT GAUSSIAN F=512 S=1024
+[sweep cell 7/36 point 7/10 18:06:15] 1_algorithm SHORT GAUSSIAN F=512 S=2048
+[sweep cell 7/36 point 8/10 18:07:12] 1_algorithm SHORT GAUSSIAN F=512 S=4096
+[sweep cell 7/36 point 9/10 18:08:58] 1_algorithm SHORT GAUSSIAN F=512 S=8192
+[sweep cell 7/36 point 10/10 18:12:26] 1_algorithm SHORT GAUSSIAN F=512 S=16384
+[sweep cell 8/36 point 1/10 18:19:24] 1_algorithm SHORT BLOCK_CORR F=512 S=32
+[sweep cell 8/36 point 2/10 18:19:29] 1_algorithm SHORT BLOCK_CORR F=512 S=64
+[sweep cell 8/36 point 3/10 18:19:35] 1_algorithm SHORT BLOCK_CORR F=512 S=128
+[sweep cell 8/36 point 4/10 18:19:42] 1_algorithm SHORT BLOCK_CORR F=512 S=256
+[sweep cell 8/36 point 5/10 18:19:52] 1_algorithm SHORT BLOCK_CORR F=512 S=512
+[sweep cell 8/36 point 6/10 18:20:10] 1_algorithm SHORT BLOCK_CORR F=512 S=1024
+[sweep cell 8/36 point 7/10 18:20:41] 1_algorithm SHORT BLOCK_CORR F=512 S=2048
+[sweep cell 8/36 point 8/10 18:21:38] 1_algorithm SHORT BLOCK_CORR F=512 S=4096
+[sweep cell 8/36 point 9/10 18:23:24] 1_algorithm SHORT BLOCK_CORR F=512 S=8192
+[sweep cell 8/36 point 10/10 18:26:53] 1_algorithm SHORT BLOCK_CORR F=512 S=16384
+[sweep] cooling down 30s before next variant ...
+[sweep] (3/9) building 2_auto_vectorization ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O3 -march=native src/main.cpp src/variants/2_auto_vectorization/comp.cpp src/common/parser.cpp -o build/2_auto_vectorization -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 9/36 point 1/10 18:34:23] 2_auto_vectorization LONG GAUSSIAN F=512 S=32
+[sweep cell 9/36 point 2/10 18:34:26] 2_auto_vectorization LONG GAUSSIAN F=512 S=64
+[sweep cell 9/36 point 3/10 18:34:31] 2_auto_vectorization LONG GAUSSIAN F=512 S=128
+[sweep cell 9/36 point 4/10 18:34:39] 2_auto_vectorization LONG GAUSSIAN F=512 S=256
+[sweep cell 9/36 point 5/10 18:34:56] 2_auto_vectorization LONG GAUSSIAN F=512 S=512
+[sweep cell 9/36 point 6/10 18:35:31] 2_auto_vectorization LONG GAUSSIAN F=512 S=1024
+[sweep cell 9/36 point 7/10 18:36:44] 2_auto_vectorization LONG GAUSSIAN F=512 S=2048
+[sweep cell 9/36 point 8/10 18:39:08] 2_auto_vectorization LONG GAUSSIAN F=512 S=4096
+[sweep cell 9/36 point 9/10 18:43:59] 2_auto_vectorization LONG GAUSSIAN F=512 S=8192
+[sweep cell 9/36 point 10/10 18:53:46] 2_auto_vectorization LONG GAUSSIAN F=512 S=16384
+[sweep cell 10/36 point 1/10 19:13:26] 2_auto_vectorization LONG BLOCK_CORR F=512 S=32
+[sweep cell 10/36 point 2/10 19:13:29] 2_auto_vectorization LONG BLOCK_CORR F=512 S=64
+[sweep cell 10/36 point 3/10 19:13:34] 2_auto_vectorization LONG BLOCK_CORR F=512 S=128
+[sweep cell 10/36 point 4/10 19:13:43] 2_auto_vectorization LONG BLOCK_CORR F=512 S=256
+[sweep cell 10/36 point 5/10 19:14:00] 2_auto_vectorization LONG BLOCK_CORR F=512 S=512
+[sweep cell 10/36 point 6/10 19:14:36] 2_auto_vectorization LONG BLOCK_CORR F=512 S=1024
+[sweep cell 10/36 point 7/10 19:15:49] 2_auto_vectorization LONG BLOCK_CORR F=512 S=2048
+[sweep cell 10/36 point 8/10 19:18:13] 2_auto_vectorization LONG BLOCK_CORR F=512 S=4096
+[sweep cell 10/36 point 9/10 19:23:04] 2_auto_vectorization LONG BLOCK_CORR F=512 S=8192
+[sweep cell 10/36 point 10/10 19:32:51] 2_auto_vectorization LONG BLOCK_CORR F=512 S=16384
+[sweep cell 11/36 point 1/10 19:52:34] 2_auto_vectorization SHORT GAUSSIAN F=512 S=32
+[sweep cell 11/36 point 2/10 19:52:36] 2_auto_vectorization SHORT GAUSSIAN F=512 S=64
+[sweep cell 11/36 point 3/10 19:52:38] 2_auto_vectorization SHORT GAUSSIAN F=512 S=128
+[sweep cell 11/36 point 4/10 19:52:40] 2_auto_vectorization SHORT GAUSSIAN F=512 S=256
+[sweep cell 11/36 point 5/10 19:52:44] 2_auto_vectorization SHORT GAUSSIAN F=512 S=512
+[sweep cell 11/36 point 6/10 19:52:51] 2_auto_vectorization SHORT GAUSSIAN F=512 S=1024
+[sweep cell 11/36 point 7/10 19:53:03] 2_auto_vectorization SHORT GAUSSIAN F=512 S=2048
+[sweep cell 11/36 point 8/10 19:53:28] 2_auto_vectorization SHORT GAUSSIAN F=512 S=4096
+[sweep cell 11/36 point 9/10 19:54:15] 2_auto_vectorization SHORT GAUSSIAN F=512 S=8192
+[sweep cell 11/36 point 10/10 19:55:49] 2_auto_vectorization SHORT GAUSSIAN F=512 S=16384
+[sweep cell 12/36 point 1/10 19:58:58] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=32
+[sweep cell 12/36 point 2/10 19:58:59] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=64
+[sweep cell 12/36 point 3/10 19:59:01] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=128
+[sweep cell 12/36 point 4/10 19:59:04] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=256
+[sweep cell 12/36 point 5/10 19:59:08] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=512
+[sweep cell 12/36 point 6/10 19:59:14] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=1024
+[sweep cell 12/36 point 7/10 19:59:27] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=2048
+[sweep cell 12/36 point 8/10 19:59:52] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=4096
+[sweep cell 12/36 point 9/10 20:00:40] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=8192
+[sweep cell 12/36 point 10/10 20:02:14] 2_auto_vectorization SHORT BLOCK_CORR F=512 S=16384
+[sweep] cooling down 30s before next variant ...
+[sweep] (4/9) building 3_ffast_math_ilp ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O3 -march=native -ffast-math src/main.cpp src/variants/3_ffast_math_ilp/comp.cpp src/common/parser.cpp -o build/3_ffast_math_ilp -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 13/36 point 1/10 20:05:54] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=32
+[sweep cell 13/36 point 2/10 20:05:57] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=64
+[sweep cell 13/36 point 3/10 20:06:02] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=128
+[sweep cell 13/36 point 4/10 20:06:12] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=256
+[sweep cell 13/36 point 5/10 20:06:28] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=512
+[sweep cell 13/36 point 6/10 20:07:00] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=1024
+[sweep cell 13/36 point 7/10 20:08:06] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=2048
+[sweep cell 13/36 point 8/10 20:10:14] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=4096
+[sweep cell 13/36 point 9/10 20:14:31] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=8192
+[sweep cell 13/36 point 10/10 20:23:15] 3_ffast_math_ilp LONG GAUSSIAN F=512 S=16384
+[sweep cell 14/36 point 1/10 20:40:47] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=32
+[sweep cell 14/36 point 2/10 20:40:50] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=64
+[sweep cell 14/36 point 3/10 20:40:56] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=128
+[sweep cell 14/36 point 4/10 20:41:06] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=256
+[sweep cell 14/36 point 5/10 20:41:22] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=512
+[sweep cell 14/36 point 6/10 20:41:55] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=1024
+[sweep cell 14/36 point 7/10 20:43:00] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=2048
+[sweep cell 14/36 point 8/10 20:45:08] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=4096
+[sweep cell 14/36 point 9/10 20:49:26] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=8192
+[sweep cell 14/36 point 10/10 20:58:10] 3_ffast_math_ilp LONG BLOCK_CORR F=512 S=16384
+[sweep cell 15/36 point 1/10 21:15:42] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=32
+[sweep cell 15/36 point 2/10 21:15:44] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=64
+[sweep cell 15/36 point 3/10 21:15:46] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=128
+[sweep cell 15/36 point 4/10 21:15:49] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=256
+[sweep cell 15/36 point 5/10 21:15:53] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=512
+[sweep cell 15/36 point 6/10 21:15:59] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=1024
+[sweep cell 15/36 point 7/10 21:16:12] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=2048
+[sweep cell 15/36 point 8/10 21:16:35] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=4096
+[sweep cell 15/36 point 9/10 21:17:17] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=8192
+[sweep cell 15/36 point 10/10 21:18:41] 3_ffast_math_ilp SHORT GAUSSIAN F=512 S=16384
+[sweep cell 16/36 point 1/10 21:21:30] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=32
+[sweep cell 16/36 point 2/10 21:21:32] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=64
+[sweep cell 16/36 point 3/10 21:21:34] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=128
+[sweep cell 16/36 point 4/10 21:21:37] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=256
+[sweep cell 16/36 point 5/10 21:21:41] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=512
+[sweep cell 16/36 point 6/10 21:21:48] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=1024
+[sweep cell 16/36 point 7/10 21:22:00] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=2048
+[sweep cell 16/36 point 8/10 21:22:23] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=4096
+[sweep cell 16/36 point 9/10 21:23:06] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=8192
+[sweep cell 16/36 point 10/10 21:24:30] 3_ffast_math_ilp SHORT BLOCK_CORR F=512 S=16384
+[sweep] cooling down 30s before next variant ...
+[sweep] (5/9) building 4_manual_ilp ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O3 -march=native -ffast-math src/main.cpp src/variants/4_manual_ilp/comp.cpp src/common/parser.cpp -o build/4_manual_ilp -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 17/36 point 1/10 21:27:51] 4_manual_ilp LONG GAUSSIAN F=512 S=32
+[sweep cell 17/36 point 2/10 21:27:54] 4_manual_ilp LONG GAUSSIAN F=512 S=64
+[sweep cell 17/36 point 3/10 21:28:00] 4_manual_ilp LONG GAUSSIAN F=512 S=128
+[sweep cell 17/36 point 4/10 21:28:10] 4_manual_ilp LONG GAUSSIAN F=512 S=256
+[sweep cell 17/36 point 5/10 21:28:27] 4_manual_ilp LONG GAUSSIAN F=512 S=512
+[sweep cell 17/36 point 6/10 21:29:01] 4_manual_ilp LONG GAUSSIAN F=512 S=1024
+[sweep cell 17/36 point 7/10 21:30:07] 4_manual_ilp LONG GAUSSIAN F=512 S=2048
+[sweep cell 17/36 point 8/10 21:32:18] 4_manual_ilp LONG GAUSSIAN F=512 S=4096
+[sweep cell 17/36 point 9/10 21:36:40] 4_manual_ilp LONG GAUSSIAN F=512 S=8192
+[sweep cell 17/36 point 10/10 21:45:43] 4_manual_ilp LONG GAUSSIAN F=512 S=16384
+[sweep cell 18/36 point 1/10 22:03:53] 4_manual_ilp LONG BLOCK_CORR F=512 S=32
+[sweep cell 18/36 point 2/10 22:03:56] 4_manual_ilp LONG BLOCK_CORR F=512 S=64
+[sweep cell 18/36 point 3/10 22:04:03] 4_manual_ilp LONG BLOCK_CORR F=512 S=128
+[sweep cell 18/36 point 4/10 22:04:13] 4_manual_ilp LONG BLOCK_CORR F=512 S=256
+[sweep cell 18/36 point 5/10 22:04:30] 4_manual_ilp LONG BLOCK_CORR F=512 S=512
+[sweep cell 18/36 point 6/10 22:05:04] 4_manual_ilp LONG BLOCK_CORR F=512 S=1024
+[sweep cell 18/36 point 7/10 22:06:10] 4_manual_ilp LONG BLOCK_CORR F=512 S=2048
+[sweep cell 18/36 point 8/10 22:08:21] 4_manual_ilp LONG BLOCK_CORR F=512 S=4096
+[sweep cell 18/36 point 9/10 22:12:44] 4_manual_ilp LONG BLOCK_CORR F=512 S=8192
+[sweep cell 18/36 point 10/10 22:21:46] 4_manual_ilp LONG BLOCK_CORR F=512 S=16384
+[sweep cell 19/36 point 1/10 22:39:56] 4_manual_ilp SHORT GAUSSIAN F=512 S=32
+[sweep cell 19/36 point 2/10 22:39:58] 4_manual_ilp SHORT GAUSSIAN F=512 S=64
+[sweep cell 19/36 point 3/10 22:40:00] 4_manual_ilp SHORT GAUSSIAN F=512 S=128
+[sweep cell 19/36 point 4/10 22:40:03] 4_manual_ilp SHORT GAUSSIAN F=512 S=256
+[sweep cell 19/36 point 5/10 22:40:07] 4_manual_ilp SHORT GAUSSIAN F=512 S=512
+[sweep cell 19/36 point 6/10 22:40:15] 4_manual_ilp SHORT GAUSSIAN F=512 S=1024
+[sweep cell 19/36 point 7/10 22:40:28] 4_manual_ilp SHORT GAUSSIAN F=512 S=2048
+[sweep cell 19/36 point 8/10 22:40:51] 4_manual_ilp SHORT GAUSSIAN F=512 S=4096
+[sweep cell 19/36 point 9/10 22:41:35] 4_manual_ilp SHORT GAUSSIAN F=512 S=8192
+[sweep cell 19/36 point 10/10 22:43:00] 4_manual_ilp SHORT GAUSSIAN F=512 S=16384
+[sweep cell 20/36 point 1/10 22:45:54] 4_manual_ilp SHORT BLOCK_CORR F=512 S=32
+[sweep cell 20/36 point 2/10 22:45:55] 4_manual_ilp SHORT BLOCK_CORR F=512 S=64
+[sweep cell 20/36 point 3/10 22:45:58] 4_manual_ilp SHORT BLOCK_CORR F=512 S=128
+[sweep cell 20/36 point 4/10 22:46:01] 4_manual_ilp SHORT BLOCK_CORR F=512 S=256
+[sweep cell 20/36 point 5/10 22:46:05] 4_manual_ilp SHORT BLOCK_CORR F=512 S=512
+[sweep cell 20/36 point 6/10 22:46:12] 4_manual_ilp SHORT BLOCK_CORR F=512 S=1024
+[sweep cell 20/36 point 7/10 22:46:25] 4_manual_ilp SHORT BLOCK_CORR F=512 S=2048
+[sweep cell 20/36 point 8/10 22:46:49] 4_manual_ilp SHORT BLOCK_CORR F=512 S=4096
+[sweep cell 20/36 point 9/10 22:47:33] 4_manual_ilp SHORT BLOCK_CORR F=512 S=8192
+[sweep cell 20/36 point 10/10 22:48:59] 4_manual_ilp SHORT BLOCK_CORR F=512 S=16384
+[sweep] cooling down 30s before next variant ...
+[sweep] (6/9) building 5_manual_vectorization ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O3 -march=native -mfma -mavx -ffast-math src/main.cpp src/variants/5_manual_vectorization/comp.cpp src/common/parser.cpp -o build/5_manual_vectorization -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 21/36 point 1/10 22:52:24] 5_manual_vectorization LONG GAUSSIAN F=512 S=32
+[sweep cell 21/36 point 2/10 22:52:26] 5_manual_vectorization LONG GAUSSIAN F=512 S=64
+[sweep cell 21/36 point 3/10 22:52:28] 5_manual_vectorization LONG GAUSSIAN F=512 S=128
+[sweep cell 21/36 point 4/10 22:52:31] 5_manual_vectorization LONG GAUSSIAN F=512 S=256
+[sweep cell 21/36 point 5/10 22:52:35] 5_manual_vectorization LONG GAUSSIAN F=512 S=512
+[sweep cell 21/36 point 6/10 22:52:41] 5_manual_vectorization LONG GAUSSIAN F=512 S=1024
+[sweep cell 21/36 point 7/10 22:52:53] 5_manual_vectorization LONG GAUSSIAN F=512 S=2048
+[sweep cell 21/36 point 8/10 22:53:15] 5_manual_vectorization LONG GAUSSIAN F=512 S=4096
+[sweep cell 21/36 point 9/10 22:54:01] 5_manual_vectorization LONG GAUSSIAN F=512 S=8192
+[sweep cell 21/36 point 10/10 22:55:40] 5_manual_vectorization LONG GAUSSIAN F=512 S=16384
+[sweep cell 22/36 point 1/10 22:59:02] 5_manual_vectorization LONG BLOCK_CORR F=512 S=32
+[sweep cell 22/36 point 2/10 22:59:04] 5_manual_vectorization LONG BLOCK_CORR F=512 S=64
+[sweep cell 22/36 point 3/10 22:59:06] 5_manual_vectorization LONG BLOCK_CORR F=512 S=128
+[sweep cell 22/36 point 4/10 22:59:09] 5_manual_vectorization LONG BLOCK_CORR F=512 S=256
+[sweep cell 22/36 point 5/10 22:59:13] 5_manual_vectorization LONG BLOCK_CORR F=512 S=512
+[sweep cell 22/36 point 6/10 22:59:20] 5_manual_vectorization LONG BLOCK_CORR F=512 S=1024
+[sweep cell 22/36 point 7/10 22:59:32] 5_manual_vectorization LONG BLOCK_CORR F=512 S=2048
+[sweep cell 22/36 point 8/10 22:59:54] 5_manual_vectorization LONG BLOCK_CORR F=512 S=4096
+[sweep cell 22/36 point 9/10 23:00:40] 5_manual_vectorization LONG BLOCK_CORR F=512 S=8192
+[sweep cell 22/36 point 10/10 23:02:19] 5_manual_vectorization LONG BLOCK_CORR F=512 S=16384
+[sweep cell 23/36 point 1/10 23:05:41] 5_manual_vectorization SHORT GAUSSIAN F=512 S=32
+[sweep cell 23/36 point 2/10 23:05:43] 5_manual_vectorization SHORT GAUSSIAN F=512 S=64
+[sweep cell 23/36 point 3/10 23:05:45] 5_manual_vectorization SHORT GAUSSIAN F=512 S=128
+[sweep cell 23/36 point 4/10 23:05:47] 5_manual_vectorization SHORT GAUSSIAN F=512 S=256
+[sweep cell 23/36 point 5/10 23:05:50] 5_manual_vectorization SHORT GAUSSIAN F=512 S=512
+[sweep cell 23/36 point 6/10 23:05:53] 5_manual_vectorization SHORT GAUSSIAN F=512 S=1024
+[sweep cell 23/36 point 7/10 23:05:58] 5_manual_vectorization SHORT GAUSSIAN F=512 S=2048
+[sweep cell 23/36 point 8/10 23:06:05] 5_manual_vectorization SHORT GAUSSIAN F=512 S=4096
+[sweep cell 23/36 point 9/10 23:06:17] 5_manual_vectorization SHORT GAUSSIAN F=512 S=8192
+[sweep cell 23/36 point 10/10 23:06:38] 5_manual_vectorization SHORT GAUSSIAN F=512 S=16384
+[sweep cell 24/36 point 1/10 23:07:21] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=32
+[sweep cell 24/36 point 2/10 23:07:23] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=64
+[sweep cell 24/36 point 3/10 23:07:25] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=128
+[sweep cell 24/36 point 4/10 23:07:27] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=256
+[sweep cell 24/36 point 5/10 23:07:30] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=512
+[sweep cell 24/36 point 6/10 23:07:33] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=1024
+[sweep cell 24/36 point 7/10 23:07:38] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=2048
+[sweep cell 24/36 point 8/10 23:07:45] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=4096
+[sweep cell 24/36 point 9/10 23:07:57] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=8192
+[sweep cell 24/36 point 10/10 23:08:18] 5_manual_vectorization SHORT BLOCK_CORR F=512 S=16384
+[sweep] cooling down 30s before next variant ...
+[sweep] (7/9) building 6_blocking ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O3 -march=native -mfma -mavx -ffast-math src/main.cpp src/variants/6_blocking/comp.cpp src/common/parser.cpp -o build/6_blocking -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 25/36 point 1/10 23:09:34] 6_blocking LONG GAUSSIAN F=512 S=32
+[sweep cell 25/36 point 2/10 23:09:36] 6_blocking LONG GAUSSIAN F=512 S=64
+[sweep cell 25/36 point 3/10 23:09:38] 6_blocking LONG GAUSSIAN F=512 S=128
+[sweep cell 25/36 point 4/10 23:09:40] 6_blocking LONG GAUSSIAN F=512 S=256
+[sweep cell 25/36 point 5/10 23:09:43] 6_blocking LONG GAUSSIAN F=512 S=512
+[sweep cell 25/36 point 6/10 23:09:46] 6_blocking LONG GAUSSIAN F=512 S=1024
+[sweep cell 25/36 point 7/10 23:09:52] 6_blocking LONG GAUSSIAN F=512 S=2048
+[sweep cell 25/36 point 8/10 23:10:03] 6_blocking LONG GAUSSIAN F=512 S=4096
+[sweep cell 25/36 point 9/10 23:10:28] 6_blocking LONG GAUSSIAN F=512 S=8192
+[sweep cell 25/36 point 10/10 23:11:17] 6_blocking LONG GAUSSIAN F=512 S=16384
+[sweep cell 26/36 point 1/10 23:13:10] 6_blocking LONG BLOCK_CORR F=512 S=32
+[sweep cell 26/36 point 2/10 23:13:12] 6_blocking LONG BLOCK_CORR F=512 S=64
+[sweep cell 26/36 point 3/10 23:13:14] 6_blocking LONG BLOCK_CORR F=512 S=128
+[sweep cell 26/36 point 4/10 23:13:17] 6_blocking LONG BLOCK_CORR F=512 S=256
+[sweep cell 26/36 point 5/10 23:13:19] 6_blocking LONG BLOCK_CORR F=512 S=512
+[sweep cell 26/36 point 6/10 23:13:23] 6_blocking LONG BLOCK_CORR F=512 S=1024
+[sweep cell 26/36 point 7/10 23:13:29] 6_blocking LONG BLOCK_CORR F=512 S=2048
+[sweep cell 26/36 point 8/10 23:13:40] 6_blocking LONG BLOCK_CORR F=512 S=4096
+[sweep cell 26/36 point 9/10 23:14:05] 6_blocking LONG BLOCK_CORR F=512 S=8192
+[sweep cell 26/36 point 10/10 23:14:55] 6_blocking LONG BLOCK_CORR F=512 S=16384
+[sweep cell 27/36 point 1/10 23:16:48] 6_blocking SHORT GAUSSIAN F=512 S=32
+[sweep cell 27/36 point 2/10 23:16:50] 6_blocking SHORT GAUSSIAN F=512 S=64
+[sweep cell 27/36 point 3/10 23:16:51] 6_blocking SHORT GAUSSIAN F=512 S=128
+[sweep cell 27/36 point 4/10 23:16:53] 6_blocking SHORT GAUSSIAN F=512 S=256
+[sweep cell 27/36 point 5/10 23:16:55] 6_blocking SHORT GAUSSIAN F=512 S=512
+[sweep cell 27/36 point 6/10 23:16:58] 6_blocking SHORT GAUSSIAN F=512 S=1024
+[sweep cell 27/36 point 7/10 23:17:02] 6_blocking SHORT GAUSSIAN F=512 S=2048
+[sweep cell 27/36 point 8/10 23:17:08] 6_blocking SHORT GAUSSIAN F=512 S=4096
+[sweep cell 27/36 point 9/10 23:17:19] 6_blocking SHORT GAUSSIAN F=512 S=8192
+[sweep cell 27/36 point 10/10 23:17:40] 6_blocking SHORT GAUSSIAN F=512 S=16384
+[sweep cell 28/36 point 1/10 23:18:26] 6_blocking SHORT BLOCK_CORR F=512 S=32
+[sweep cell 28/36 point 2/10 23:18:28] 6_blocking SHORT BLOCK_CORR F=512 S=64
+[sweep cell 28/36 point 3/10 23:18:29] 6_blocking SHORT BLOCK_CORR F=512 S=128
+[sweep cell 28/36 point 4/10 23:18:31] 6_blocking SHORT BLOCK_CORR F=512 S=256
+[sweep cell 28/36 point 5/10 23:18:34] 6_blocking SHORT BLOCK_CORR F=512 S=512
+[sweep cell 28/36 point 6/10 23:18:36] 6_blocking SHORT BLOCK_CORR F=512 S=1024
+[sweep cell 28/36 point 7/10 23:18:41] 6_blocking SHORT BLOCK_CORR F=512 S=2048
+[sweep cell 28/36 point 8/10 23:18:47] 6_blocking SHORT BLOCK_CORR F=512 S=4096
+[sweep cell 28/36 point 9/10 23:18:58] 6_blocking SHORT BLOCK_CORR F=512 S=8192
+[sweep cell 28/36 point 10/10 23:19:19] 6_blocking SHORT BLOCK_CORR F=512 S=16384
+[sweep] cooling down 30s before next variant ...
+[sweep] (8/9) building 7_multi_accumulator ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O3 -march=native -mfma -mavx -ffast-math src/main.cpp src/variants/7_multi_accumulator/comp.cpp src/common/parser.cpp -o build/7_multi_accumulator -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 29/36 point 1/10 23:20:38] 7_multi_accumulator LONG GAUSSIAN F=512 S=32
+[sweep cell 29/36 point 2/10 23:20:39] 7_multi_accumulator LONG GAUSSIAN F=512 S=64
+[sweep cell 29/36 point 3/10 23:20:41] 7_multi_accumulator LONG GAUSSIAN F=512 S=128
+[sweep cell 29/36 point 4/10 23:20:43] 7_multi_accumulator LONG GAUSSIAN F=512 S=256
+[sweep cell 29/36 point 5/10 23:20:45] 7_multi_accumulator LONG GAUSSIAN F=512 S=512
+[sweep cell 29/36 point 6/10 23:20:49] 7_multi_accumulator LONG GAUSSIAN F=512 S=1024
+[sweep cell 29/36 point 7/10 23:20:54] 7_multi_accumulator LONG GAUSSIAN F=512 S=2048
+[sweep cell 29/36 point 8/10 23:21:03] 7_multi_accumulator LONG GAUSSIAN F=512 S=4096
+[sweep cell 29/36 point 9/10 23:21:22] 7_multi_accumulator LONG GAUSSIAN F=512 S=8192
+[sweep cell 29/36 point 10/10 23:22:00] 7_multi_accumulator LONG GAUSSIAN F=512 S=16384
+[sweep cell 30/36 point 1/10 23:23:32] 7_multi_accumulator LONG BLOCK_CORR F=512 S=32
+[sweep cell 30/36 point 2/10 23:23:34] 7_multi_accumulator LONG BLOCK_CORR F=512 S=64
+[sweep cell 30/36 point 3/10 23:23:36] 7_multi_accumulator LONG BLOCK_CORR F=512 S=128
+[sweep cell 30/36 point 4/10 23:23:38] 7_multi_accumulator LONG BLOCK_CORR F=512 S=256
+[sweep cell 30/36 point 5/10 23:23:40] 7_multi_accumulator LONG BLOCK_CORR F=512 S=512
+[sweep cell 30/36 point 6/10 23:23:44] 7_multi_accumulator LONG BLOCK_CORR F=512 S=1024
+[sweep cell 30/36 point 7/10 23:23:49] 7_multi_accumulator LONG BLOCK_CORR F=512 S=2048
+[sweep cell 30/36 point 8/10 23:23:59] 7_multi_accumulator LONG BLOCK_CORR F=512 S=4096
+[sweep cell 30/36 point 9/10 23:24:17] 7_multi_accumulator LONG BLOCK_CORR F=512 S=8192
+[sweep cell 30/36 point 10/10 23:24:56] 7_multi_accumulator LONG BLOCK_CORR F=512 S=16384
+[sweep cell 31/36 point 1/10 23:26:28] 7_multi_accumulator SHORT GAUSSIAN F=512 S=32
+tools/sweep.sh: line 168: 370821 Aborted                 $PIN "./$BUILD_DIR/$v" "$TEST_INPUT" --bench --rep "$REP" >> "$bench_csv" 2>> "$log_txt"

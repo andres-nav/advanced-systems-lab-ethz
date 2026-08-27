@@ -1,0 +1,15 @@
+/* Custom v-click animation: fade-away (opacity -> 0, slower transition) */
+.slidev-vclick-anim-fade-away {
+  transition: opacity 500ms ease;
+}
+.slidev-vclick-anim-fade-away.slidev-vclick-hidden {
+  opacity: 0;
+}
+
+/* Custom v-click animation: fade-in (opacity 0 -> 1, slower with delay) */
+.slidev-vclick-anim-fade-in-slow {
+  transition: opacity 500ms ease 200ms;
+}
+.slidev-vclick-anim-fade-in-slow.slidev-vclick-hidden {
+  opacity: 0;
+}

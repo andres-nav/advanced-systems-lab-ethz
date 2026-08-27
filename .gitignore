@@ -1,0 +1,21 @@
+# C++ build output
+build/
+
+# LaTeX build artifacts
+report/build/
+report/.auctex-auto/
+
+# Local benchmark config (copy from config.mk.example)
+config.mk
+
+# Node / Slidev
+presentation/node_modules/
+presentation/dist/
+presentation/.slidev/
+
+# Python
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store

@@ -1,0 +1,26 @@
+[sweep] (1/1) building 8_sorting ...
+make[1]: Entering directory '/home/user/asl-project'
+g++ -std=c++20 -Wall -Wextra -I./src -O3 -march=native -mfma -mavx -ffast-math src/main.cpp src/variants/8_sorting/comp.cpp src/common/parser.cpp -o build/8_sorting -lpapi
+make[1]: Leaving directory '/home/user/asl-project'
+[sweep cell 1/4 point 1/10 07:50:54] 8_sorting LONG GAUSSIAN F=512 S=32
+[sweep cell 1/4 point 2/10 07:50:56] 8_sorting LONG GAUSSIAN F=512 S=64
+[sweep cell 1/4 point 3/10 07:50:58] 8_sorting LONG GAUSSIAN F=512 S=128
+[sweep cell 1/4 point 4/10 07:51:00] 8_sorting LONG GAUSSIAN F=512 S=256
+[sweep cell 1/4 point 5/10 07:51:02] 8_sorting LONG GAUSSIAN F=512 S=512
+[sweep cell 1/4 point 6/10 07:51:05] 8_sorting LONG GAUSSIAN F=512 S=1024
+[sweep cell 1/4 point 7/10 07:51:10] 8_sorting LONG GAUSSIAN F=512 S=2048
+[sweep cell 1/4 point 8/10 07:51:19] 8_sorting LONG GAUSSIAN F=512 S=4096
+[sweep cell 1/4 point 9/10 07:51:36] 8_sorting LONG GAUSSIAN F=512 S=8192
+[sweep cell 1/4 point 10/10 07:52:10] 8_sorting LONG GAUSSIAN F=512 S=16384
+[sweep cell 2/4 point 1/10 07:53:32] 8_sorting LONG BLOCK_CORR F=512 S=32
+[sweep cell 2/4 point 2/10 07:53:34] 8_sorting LONG BLOCK_CORR F=512 S=64
+[sweep cell 2/4 point 3/10 07:53:36] 8_sorting LONG BLOCK_CORR F=512 S=128
+[sweep cell 2/4 point 4/10 07:53:38] 8_sorting LONG BLOCK_CORR F=512 S=256
+[sweep cell 2/4 point 5/10 07:53:40] 8_sorting LONG BLOCK_CORR F=512 S=512
+[sweep cell 2/4 point 6/10 07:53:44] 8_sorting LONG BLOCK_CORR F=512 S=1024
+[sweep cell 2/4 point 7/10 07:53:48] 8_sorting LONG BLOCK_CORR F=512 S=2048
+[sweep cell 2/4 point 8/10 07:53:57] 8_sorting LONG BLOCK_CORR F=512 S=4096
+[sweep cell 2/4 point 9/10 07:54:14] 8_sorting LONG BLOCK_CORR F=512 S=8192
+[sweep cell 2/4 point 10/10 07:54:48] 8_sorting LONG BLOCK_CORR F=512 S=16384
+[sweep cell 3/4 point 1/10 07:56:10] 8_sorting SHORT GAUSSIAN F=512 S=32
+tools/sweep.sh: line 168: 393495 Aborted                 $PIN "./$BUILD_DIR/$v" "$TEST_INPUT" --bench --rep "$REP" >> "$bench_csv" 2>> "$log_txt"
